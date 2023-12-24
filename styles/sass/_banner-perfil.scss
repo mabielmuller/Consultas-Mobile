@@ -1,0 +1,26 @@
+@use 'variaveis';
+
+.banner-perfil{
+    display: flex;
+    align-items: center;
+    margin: 2.5em 2em;
+    gap: 1.5rem;
+    font-family: variaveis.$fonte;
+    
+    .banner-saudacao{
+       display: flex;
+       flex-direction: column;
+       row-gap: 0.3em; 
+
+       .banner-dr{
+        font-size: 22px;
+        font-weight: 700;
+       }
+
+       .banner-numero-consultas{
+        font-size: 14px;
+        font-weight: 400;
+        color: variaveis.$cinza-claro;
+       }
+    }
+}

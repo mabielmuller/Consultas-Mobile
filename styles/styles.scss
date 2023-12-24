@@ -1,0 +1,7 @@
+@use 'sass/variaveis';
+@use 'sass/banner-perfil';
+
+body{
+    background: variaveis.$background;
+    font-size: 14px;
+}
