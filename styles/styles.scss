@@ -1,7 +1,8 @@
 @use 'sass/variaveis';
 @use 'sass/banner-perfil';
+@use 'sass/card-consultas';
+@use 'sass/botoes';
 
 body{
     background: variaveis.$background;
-    font-size: 14px;
 }

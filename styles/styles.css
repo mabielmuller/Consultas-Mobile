@@ -11,7 +11,7 @@
   row-gap: 0.3em;
 }
 .banner-perfil .banner-saudacao .banner-dr {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
 }
 .banner-perfil .banner-saudacao .banner-numero-consultas {
@@ -20,7 +20,89 @@
   color: #A3A3A3;
 }
 
-body {
-  background: #FAF7FF;
+.card-consultas {
+  display: flex;
+  flex-direction: column;
+  margin: 2.5em 2em;
+  font-family: "Montserrat";
+}
+.card-consultas .card-consultas-data {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 1em 0;
+}
+.card-consultas .card-consultas-bloco {
+  display: flex;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  background-color: white;
+  padding: 1rem;
+  border-bottom: 1px solid #A3A3A3;
+  border-radius: 15px 15px 0 0;
+}
+.card-consultas .card-consultas-bloco .card-consultas-paciente {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  align-items: center;
+}
+.card-consultas .card-consultas-bloco .card-consultas-paciente .card-consultas-titulo {
+  font-size: 16px;
+  font-weight: 700;
+  align-self: first baseline;
+}
+.card-consultas .card-consultas-bloco .card-consultas-paciente .card-consultas-modo {
+  color: #A3A3A3;
   font-size: 14px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.card-consultas .card-consultas-bloco .card-consultas-chat {
+  margin-left: auto;
+}
+.card-consultas .card-consultas-infos {
+  background-color: white;
+  padding: 1em;
+  border-radius: 0 0 15px 15px;
+}
+.card-consultas .card-consultas-infos .card-consultas-horario {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card-consultas-botoes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1em 0.5em;
+  gap: 1em;
+  margin: auto;
+}
+.card-consultas-botoes .botao, .card-consultas-botoes .botao-azul, .card-consultas-botoes .botao-branco, .card-consultas-botoes .botao-laranja {
+  padding: 1rem;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  white-space: nowrap;
+  margin-top: 0.5em;
+}
+.card-consultas-botoes .botao-laranja {
+  background-color: #FFB050;
+  color: white;
+}
+.card-consultas-botoes .botao-branco {
+  background-color: rgba(255, 255, 255, 0.986);
+  border: 1px solid #A3A3A3;
+}
+.card-consultas-botoes .botao-azul {
+  background-color: #4894FF;
+  color: white;
+  width: 100%;
+  padding: 1rem;
+}
+
+body {
+  background: #f7f3fc;
 }/*# sourceMappingURL=styles.css.map */
