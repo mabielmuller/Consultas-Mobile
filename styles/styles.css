@@ -133,6 +133,7 @@
 }
 .menu-bloco .menu .menu-componentes .menu-links span {
   padding: 10%;
+  margin: auto;
 }
 .menu-bloco .menu .menu-componentes .menu-links .menu-consulta-texto {
   color: #4894FF;
