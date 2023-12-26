@@ -113,6 +113,15 @@
   display: flex;
   justify-content: right;
 }
+.menu-bloco .menu-botao-flutuante .input-botao-flutuante {
+  display: none;
+}
+.menu-bloco .menu-botao-flutuante .input-botao-flutuante:checked ~ .lista-menu-img {
+  display: block;
+}
+.menu-bloco .menu-botao-flutuante .lista-menu-img {
+  display: none;
+}
 .menu-bloco .menu {
   padding: 1em;
   display: flex;

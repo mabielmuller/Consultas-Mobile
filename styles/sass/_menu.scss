@@ -9,7 +9,21 @@
     .menu-botao-flutuante{
         display: flex;
         justify-content: right;
+
      
+        .input-botao-flutuante{
+            display: none;       
+        }     
+
+        .input-botao-flutuante:checked~.lista-menu-img{
+            display: block;
+        }
+        
+        .lista-menu-img{
+             display: none;     
+         }
+        
+        
     }
 
     .menu{
