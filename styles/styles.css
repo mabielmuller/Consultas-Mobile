@@ -128,18 +128,16 @@
   text-decoration: none;
   color: #A3A3A3;
   font-weight: 400;
-  text-align: center;
-  margin: auto;
+  font-size: 12px;
 }
 .menu-bloco .menu .menu-componentes .menu-links span {
   padding: 10%;
-  margin: auto;
 }
 .menu-bloco .menu .menu-componentes .menu-links .menu-consulta-texto {
   color: #4894FF;
 }
 .menu-bloco .menu .menu-componentes .menu-links img {
-  margin-bottom: 0.3em;
+  margin: 0.2em;
 }
 
 body {
