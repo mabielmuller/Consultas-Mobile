@@ -114,6 +114,8 @@
 }
 .menu-bloco .menu {
   padding: 1em;
+  display: flex;
+  justify-content: center;
 }
 .menu-bloco .menu .menu-componentes {
   display: flex;
@@ -128,6 +130,9 @@
   font-weight: 400;
 }
 .menu-bloco .menu .menu-componentes .menu-links span {
+  padding: 10%;
+}
+.menu-bloco .menu .menu-componentes .menu-links .menu-consulta-texto {
   color: #4894FF;
 }
 .menu-bloco .menu .menu-componentes .menu-links img {
