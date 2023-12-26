@@ -1,20 +1,24 @@
 @use 'variaveis';
 
 .menu-bloco{
-    background-color: white;
     font-family: variaveis.$fonte;
     position: fixed;
     bottom: 0;
     width: 100%;
-    border-radius: 12px 12px 0px 0px;
-    box-shadow: 0px -4px 8px 0px rgba(0, 0, 0, 0.06);
     
+    .menu-botao-flutuante{
+        display: flex;
+        justify-content: right;
+     
+    }
 
     .menu{
         padding: 1em;
         display: flex;
         justify-content: center;
-        
+        background-color: white;
+        border-radius: 12px 12px 0px 0px;
+        box-shadow: 0px -4px 8px 0px rgba(0, 0, 0, 0.06);
         
         
         .menu-componentes{

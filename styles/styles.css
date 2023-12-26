@@ -23,7 +23,7 @@
 .card-consultas {
   display: flex;
   flex-direction: column;
-  margin: 2.5em 2em;
+  margin: 2.5em 2em 7em 2em;
   font-family: "Montserrat";
 }
 .card-consultas .card-consultas-data {
@@ -104,18 +104,22 @@
 }
 
 .menu-bloco {
-  background-color: white;
   font-family: "Montserrat";
   position: fixed;
   bottom: 0;
   width: 100%;
-  border-radius: 12px 12px 0px 0px;
-  box-shadow: 0px -4px 8px 0px rgba(0, 0, 0, 0.06);
+}
+.menu-bloco .menu-botao-flutuante {
+  display: flex;
+  justify-content: right;
 }
 .menu-bloco .menu {
   padding: 1em;
   display: flex;
   justify-content: center;
+  background-color: white;
+  border-radius: 12px 12px 0px 0px;
+  box-shadow: 0px -4px 8px 0px rgba(0, 0, 0, 0.06);
 }
 .menu-bloco .menu .menu-componentes {
   display: flex;
