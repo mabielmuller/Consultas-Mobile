@@ -4,13 +4,13 @@
     position: fixed;
     bottom: 10%;
     font-family: variaveis.$fonte;
+    display: flex;
+    right: 1%;
 
     .botao-flutuante {
         display: flex;
         flex-direction: column;
-        justify-content: right;
         text-align: right;
-        width: 100vw;
         
 
         .botao-flutuante-input {
@@ -51,7 +51,4 @@
 
     }
 
-    label{
-        margin-right: 0.2em;
-    }
 }

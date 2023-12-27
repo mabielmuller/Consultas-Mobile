@@ -144,13 +144,13 @@
   position: fixed;
   bottom: 10%;
   font-family: "Montserrat";
+  display: flex;
+  right: 1%;
 }
 .botao-flutuante-bloco .botao-flutuante {
   display: flex;
   flex-direction: column;
-  justify-content: right;
   text-align: right;
-  width: 100vw;
 }
 .botao-flutuante-bloco .botao-flutuante .botao-flutuante-input {
   display: none;
@@ -179,9 +179,6 @@
   font-weight: 500;
   padding: 0.5em;
   border-radius: 15px;
-}
-.botao-flutuante-bloco label {
-  margin-right: 0.2em;
 }
 
 body {
