@@ -140,6 +140,50 @@
   margin: 0.2em;
 }
 
+.botao-flutuante-bloco {
+  position: fixed;
+  bottom: 10%;
+  font-family: "Montserrat";
+}
+.botao-flutuante-bloco .botao-flutuante {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  text-align: right;
+  width: 100vw;
+}
+.botao-flutuante-bloco .botao-flutuante .botao-flutuante-input {
+  display: none;
+}
+.botao-flutuante-bloco .botao-flutuante .botao-flutuante-input:checked ~ .botao-flutuante-lista {
+  display: block;
+}
+.botao-flutuante-bloco .botao-flutuante .botao-flutuante-lista {
+  display: none;
+}
+.botao-flutuante-bloco .botao-flutuante .botao-flutuante-lista .botao-flutuante-item {
+  display: flex;
+  justify-content: right;
+  margin-right: 0.2em;
+}
+.botao-flutuante-bloco .botao-flutuante .botao-flutuante-lista .botao-flutuante-item .botao-flutuante-div {
+  display: flex;
+  align-items: center;
+}
+.botao-flutuante-bloco .botao-flutuante .botao-flutuante-lista .botao-flutuante-item .botao-flutuante-div p {
+  width: auto;
+  background-color: #4894FF;
+  box-shadow: 0px -4px 8px 0px rgba(0, 0, 0, 0.06);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0.5em;
+  border-radius: 15px;
+}
+.botao-flutuante-bloco label {
+  margin-right: 0.2em;
+}
+
 body {
   background: #f7f3fc;
 }/*# sourceMappingURL=styles.css.map */
