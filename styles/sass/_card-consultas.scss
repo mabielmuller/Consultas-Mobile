@@ -57,3 +57,18 @@
         }
     }
 }
+
+@media screen and (min-width:800px) {
+    .card-consultas {
+        width: auto;
+        margin: 0 15em 0 15em;
+    
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .card-consultas {
+        margin: 0 15em 0 20em;
+    
+    }
+}

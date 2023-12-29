@@ -46,3 +46,36 @@
     
     
 }
+
+@media screen and (min-width:1024px) {
+    .menu-bloco {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        left: 0;   
+        height: 100%;
+        width: 10em;
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            width: 8em;
+            height: 100%;
+            border-radius: 0 0 0px 0px;
+            box-shadow: 0px -4px 8px 0px rgba(0, 0, 0, 0.253);
+
+            .menu-componentes{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                position: fixed;
+                margin-top: 1rem;
+                margin-left: 1rem;
+                gap: 15%;
+                top: 0;
+            }
+        }
+    }
+}
